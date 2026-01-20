@@ -51,4 +51,10 @@ start.addEventListener("click",()=> {
 })
 
 let reinit = document.querySelector("#reinit");
-reinit.addEventListener("click",()=>display.textContent= "00:00:00");
+reinit.addEventListener("click",()=>{
+    display.textContent= "00:00:00"
+    heure = 0;
+    minute = 0;
+    secondes = 0;
+    millisecondes = 0;
+});
